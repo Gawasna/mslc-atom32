@@ -1,0 +1,25 @@
+{
+  "id": "atom32",
+  "name": "Speaker Diarization Engine",
+  "description": "ONNX-based speaker diarization with voice profile management and real-time segmentation. Integrates with LiveCaption pipe for per-utterance labeling.",
+  "version": "1.0.0",
+  "min_python": "3.10",
+  "entry_script": "cli_diarizer.py",
+  "install_requires_cuda": false,
+  "cuda_optional": false,
+  "files": [
+    "cli_diarizer.py",
+    "gui_diarizer.py",
+    "db_query.py",
+    "demo.py",
+    "diarizer/__init__.py",
+    "diarizer/audio.py",
+    "diarizer/clustering.py",
+    "diarizer/embedding.py",
+    "diarizer/fbank.py",
+    "diarizer/pipeline.py",
+    "diarizer/vad.py",
+    "diarizer/voice_profile_db.py",
+    "requirements.txt"
+  ]
+}
